@@ -376,10 +376,7 @@ server {
   sudo systemctl restart nginx
   ```
 
-##  Configuração do Docker
-
-Para este projeto, utilizei o Docker para configurar e gerenciar o banco de dados de forma prática e eficiente. Com o uso de contêineres, foi possível garantir a portabilidade e a facilidade na implantação, eliminando preocupações relacionadas à compatibilidade entre ambientes.  
-A imagem oficial do **MySQL** foi utilizada para criar o contêiner do banco de dados. Todas as configurações, como nome do banco, usuário e senha, foram definidas no arquivo `docker-compose.yml`, permitindo uma inicialização automatizada e padronizada.
+##  Configuração do Docker.
 
 ### Instale o Docker e Docker Compose
 
@@ -391,13 +388,13 @@ A imagem oficial do **MySQL** foi utilizada para criar o contêiner do banco de 
 
 ### Crie o arquivo docker compose
 
-- Criar o arquivo `docker-compose.yml`
+-Criar o arquivo `docker-compose.yml`
 
 ```cmd
   sudo vim docker-compose.yml
 ```
 
-- Insira as seguintes informações no arquivo `docker-compose.yml`
+-Insira as seguintes informações no arquivo `docker-compose.yml`
 
 ```cmd
   services:
@@ -412,7 +409,7 @@ A imagem oficial do **MySQL** foi utilizada para criar o contêiner do banco de 
         restart: always
 ```
 
-###  Rode o docker-compose
+-Rode o docker-compose
 
 ```cmd
   sudo docker-compose up -d
