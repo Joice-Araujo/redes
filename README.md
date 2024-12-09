@@ -449,7 +449,7 @@ No terminal da instância da AWS reazlize os seguintes passos:
   sudo vim servidor.conf
 ```
 
--Adiciona as seguintes configurações no arquivo:
+-Adicione as seguintes configurações no arquivo:
 ```
   dev tun
 ifconfig 10.0.0.1 (servidor) 10.0.0.2 (cliente)
@@ -471,7 +471,7 @@ cipher AES256
   sudo vim cliente.conf
 ```
 
--Adiciona as seguintes configurações no arquivo:
+-Adicione as seguintes configurações no arquivo:
 ```
   dev tun
 ifconfig 10.0.0.2 (cliente) 10.0.0.1 (servidor)
