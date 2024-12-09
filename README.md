@@ -1,5 +1,7 @@
-# Projeto de Redes 
 
+<h1 style="text-align: center;">Projeto de Redes</h1>
+
+	
 ## Objetivo do Trabalho
 Entrega de um projeto de redes que utilize AWS ou VirtualBox para criar uma infraestrutura de rede robusta e escalável.
 
