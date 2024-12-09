@@ -83,14 +83,9 @@ Baixe e instale o [Bitvise SSH Client](https://bitvise.com/ssh-client-download).
 
 -Importe a chave que foi baixada na criação da MV em *Client Key manager*
 
--[Assista ao vídeo](https://youtu.be/fBJWnwP5MVw)
-
 -Selecione a chave da MV em *Client Key*
 
-<video width="320" height="240" controls>
-  <source src="img/biteVise.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
+-[Assista ao vídeo](https://youtu.be/fBJWnwP5MVw)
 
 
 ## Configuração da Máquina Frontend
