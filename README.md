@@ -86,7 +86,7 @@ Baixe e instale o [Bitvise SSH Client](https://bitvise.com/ssh-client-download).
 -Selecione a chave da MV em *Client Key*
 
 <video width="320" height="240" controls>
-  <source src="img/1209.mp4" type="video/mp4">
+  <source src="img/biteVise.mp4" type="video/mp4">
   Seu navegador não suporta o elemento de vídeo.
 </video>
 
